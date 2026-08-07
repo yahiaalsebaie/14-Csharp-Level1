@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37012.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Csharp-Level1", "14-Csharp-Level1.csproj", "{E5E87415-1FF7-417F-8F48-C675420E4AFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeSimulation", "..\BarcodeSimulation\BarcodeSimulation.csproj", "{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5E87415-1FF7-417F-8F48-C675420E4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E87415-1FF7-417F-8F48-C675420E4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E87415-1FF7-417F-8F48-C675420E4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
