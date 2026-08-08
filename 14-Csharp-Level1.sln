@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.37012.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Csharp-Level1", "14-Csharp-Level1.csproj", "{E5E87415-1FF7-417F-8F48-C675420E4AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeSimulation", "..\BarcodeSimulation\BarcodeSimulation.csproj", "{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeSimulation", "BarcodeSimulation\BarcodeSimulation.csproj", "{A7C78D99-804F-4C81-9EF9-F7FFC30A50C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDataTypeChecker", "..\CSharpDataTypeChecker\CSharpDataTypeChecker.csproj", "{34B42558-7087-4A61-8047-4E534F03AABA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDataTypeChecker", "CSharpDataTypeChecker\CSharpDataTypeChecker.csproj", "{34B42558-7087-4A61-8047-4E534F03AABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
