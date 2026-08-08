@@ -1,13 +1,34 @@
-﻿using System;
+﻿
+//ProgrammingAdvices.com
+//Mohammed Abu-Hadhoud
 
-namespace Course_14_Csharp_Level1
+using System;
+
+namespace Main
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! THIS IS YAHIA");
+
+            //  Nullable<int> can be assigned any value
+            //  from -2147483648 to 2147483647, or a null value.
+
+            Nullable<int> i = null;
+
+            int? j = null;
+
+            int? grade = null;
+            Console.WriteLine(grade);
+
+
+            grade = 75;
+            Console.WriteLine(grade);
+
             Console.ReadKey();
+
         }
     }
 }
+
