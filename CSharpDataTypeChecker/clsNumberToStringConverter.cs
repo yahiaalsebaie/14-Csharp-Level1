@@ -5,6 +5,8 @@
         // أهم التعديلات من C++ لـ C#:
         // - unsigned long long → ulong
         // - string arr[]{} → string[] arr = { };
+        // - to_string() → ToString()
+        // - 1'000'000 → 1_000_000
         // - to\_string() → ToString()
         // - 1'000'000 → 1\_000\_000
         // - ULL → UL
@@ -19,6 +21,7 @@
 
             if (Number < 0)
             {
+                //Edge Case
                 // long.MinValue حالة خاصة لأن القيمة المطلقة أكبر من long.MaxValue
                 if (Number == long.MinValue)
                 {
@@ -42,82 +45,52 @@
                 string[] arr = { "", "", "Twenty", "Thirty", "Forty", "Fifty",
                     "Sixty", "Seventy", "Eighty", "Ninety" };
 
-                return arr[Number / 10] +
-                    (Number % 10 != 0
-                        ? " " + ConvertNumberToText(Number % 10)
-                        : "");
+                return arr[Number / 10] + (Number % 10 != 0 ? " " + ConvertNumberToText(Number % 10) : "");
             }
 
             if (Number >= 100 && Number < 1000)
             {
-                return ConvertNumberToText(Number / 100) +
-                    " Hundred" +
-                    (Number % 100 != 0
-                        ? " " + ConvertNumberToText(Number % 100)
-                        : "");
+                return ConvertNumberToText(Number / 100) +  " Hundred" + (Number % 100 != 0 ? " " + ConvertNumberToText(Number % 100) : "");
             }
 
             // Thousands: 1,000 to 999,999
             if (Number >= 1_000L && Number < 1_000_000L)
             {
-                return ConvertNumberToText(Number / 1_000L) +
-                    " Thousand" +
-                    (Number % 1_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000L) + " Thousand" + (Number % 1_000L != 0 ? " " + ConvertNumberToText(Number % 1_000L) : "");
             }
 
             // Millions: 1,000,000 to 999,999,999
             if (Number >= 1_000_000L && Number < 1_000_000_000L)
             {
                 // Or: if (Number >= (unsigned long long)1e6 && Number < (unsigned long long)1e9)
-                return ConvertNumberToText(Number / 1_000_000L) +
-                    " Million" +
-                    (Number % 1_000_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000_000L) +  " Million" +  (Number % 1_000_000L != 0 ? " " + ConvertNumberToText(Number % 1_000_000L) : "");
             }
 
             // Billions: 1,000,000,000 to 999,999,999,999
             if (Number >= 1_000_000_000L && Number < 1_000_000_000_000L)
             {
-                return ConvertNumberToText(Number / 1_000_000_000L) +
-                    " Billion" +
-                    (Number % 1_000_000_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000_000_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000_000_000L) + " Billion" + (Number % 1_000_000_000L != 0 ? " " + ConvertNumberToText(Number % 1_000_000_000L) : "");
             }
 
             // Trillions: 1,000,000,000,000 to 999,999,999,999,999
             if (Number >= 1_000_000_000_000L && Number < 1_000_000_000_000_000L)
             {
-                return ConvertNumberToText(Number / 1_000_000_000_000L) +
-                    " Trillion" +
-                    (Number % 1_000_000_000_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000_000_000_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000_000_000_000L) + " Trillion" + (Number % 1_000_000_000_000L != 0 ? " " + ConvertNumberToText(Number % 1_000_000_000_000L) : "");
             }
 
             // Quadrillions: 1,000,000,000,000,000 to 999,999,999,999,999,999
             if (Number >= 1_000_000_000_000_000L &&
                 Number < 1_000_000_000_000_000_000L)
             {
-                return ConvertNumberToText(Number / 1_000_000_000_000_000L) +
-                    " Quadrillion" +
-                    (Number % 1_000_000_000_000_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000_000_000_000_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000_000_000_000_000L) + " Quadrillion" +  (Number % 1_000_000_000_000_000L != 0 ? " " + ConvertNumberToText(Number % 1_000_000_000_000_000L)  : "");
             }
 
             // Quintillions: 1,000,000,000,000,000,000 to 9,223,372,036,854,775,807
             if (Number >= 1_000_000_000_000_000_000L &&
                 Number <= long.MaxValue)
             {
-                return ConvertNumberToText(Number / 1_000_000_000_000_000_000L) +
-                    " Quintillion" +
-                    (Number % 1_000_000_000_000_000_000L != 0
-                        ? " " + ConvertNumberToText(Number % 1_000_000_000_000_000_000L)
-                        : "");
+                return ConvertNumberToText(Number / 1_000_000_000_000_000_000L) + " Quintillion" +
+                    (Number % 1_000_000_000_000_000_000L != 0  ? " " + ConvertNumberToText(Number % 1_000_000_000_000_000_000L) : "");
             }
 
             return "Out of range...";
@@ -130,6 +103,7 @@
             // نقدر نستفيد من نسخة long بدل تكرار الكود
             if (Number <= long.MaxValue)
                 return ConvertNumberToText((long)Number);
+
 
             // Quadrillions: 1,000,000,000,000,000 to 999,999,999,999,999,999
             if (Number >= 1_000_000_000_000_000UL &&
@@ -200,6 +174,7 @@
         }
     }
 }
+
 
 /*
  * Old C++ Code
