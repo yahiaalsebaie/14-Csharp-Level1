@@ -52,10 +52,226 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckedBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckedBox.Designer.cs">
+      <DependentUpon>frmCheckedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChkRadioGroub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChkRadioGroub.Designer.cs">
+      <DependentUpon>frmChkRadioGroub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColorDialoge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColorDialoge.Designer.cs">
+      <DependentUpon>frmColorDialoge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBox.Designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBoxPictures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBoxPictures.Designer.cs">
+      <DependentUpon>frmComboBoxPictures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDateTimePicker.Designer.cs">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDraw.Designer.cs">
+      <DependentUpon>frmDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrorProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorProvider.Designer.cs">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinkLable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkLable.Designer.cs">
+      <DependentUpon>frmLinkLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListView.Designer.cs">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaskedBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaskedBox.Designer.cs">
+      <DependentUpon>frmMaskedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBoxForm - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBoxForm - Copy.Designer.cs">
+      <DependentUpon>frmMessageBoxForm - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonthCalander - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthCalander - Copy.Designer.cs">
+      <DependentUpon>frmMonthCalander - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotifyIcon - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotifyIcon - Copy.Designer.cs">
+      <DependentUpon>frmNotifyIcon - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNumaricUpDown - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumaricUpDown - Copy.Designer.cs">
+      <DependentUpon>frmNumaricUpDown - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgressBar - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressBar - Copy.Designer.cs">
+      <DependentUpon>frmProgressBar - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabControl - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabControl - Copy.Designer.cs">
+      <DependentUpon>frmTabControl - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimer - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer - Copy.Designer.cs">
+      <DependentUpon>frmTimer - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrackBar - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrackBar - Copy.Designer.cs">
+      <DependentUpon>frmTrackBar - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreeView - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeView - Copy.Designer.cs">
+      <DependentUpon>frmTreeView - Copy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckedBox.resx">
+      <DependentUpon>frmCheckedBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChkRadioGroub.resx">
+      <DependentUpon>frmChkRadioGroub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColorDialoge.resx">
+      <DependentUpon>frmColorDialoge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBoxPictures.resx">
+      <DependentUpon>frmComboBoxPictures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDateTimePicker.resx">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDraw.resx">
+      <DependentUpon>frmDraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorProvider.resx">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkLable.resx">
+      <DependentUpon>frmLinkLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListView.resx">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaskedBox.resx">
+      <DependentUpon>frmMaskedBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBoxForm - Copy.resx">
+      <DependentUpon>frmMessageBoxForm - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthCalander - Copy.resx">
+      <DependentUpon>frmMonthCalander - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotifyIcon - Copy.resx">
+      <DependentUpon>frmNotifyIcon - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumaricUpDown - Copy.resx">
+      <DependentUpon>frmNumaricUpDown - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgressBar - Copy.resx">
+      <DependentUpon>frmProgressBar - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabControl - Copy.resx">
+      <DependentUpon>frmTabControl - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer - Copy.resx">
+      <DependentUpon>frmTimer - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrackBar - Copy.resx">
+      <DependentUpon>frmTrackBar - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeView - Copy.resx">
+      <DependentUpon>frmTreeView - Copy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +301,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Close Window2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCSS61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul S511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breaking Bad S11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breaking Bad S21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breaking Bad S31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breaking Bad S41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Breaking Bad S51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
